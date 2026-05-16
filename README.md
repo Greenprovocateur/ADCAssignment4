@@ -92,9 +92,9 @@ Yes. The time increase from 10→30→100 vertices is roughly linear with V+E, c
   In the small graph, BFS produced `V0 V1 V9 V8 V6...` (wave-like), while DFS followed a simple path `0→1→2→3→4→5→6→7→8→9`.
 
 5. When is BFS preferred over DFS?
-- Finding the **shortest path** in unweighted graphs
-- When the graph is **wide and shallow
-- When you need **level-order traversal** (e.g., social networks, web crawling)
+- Finding the shortest path in unweighted graphs
+- When the graph is wide and shallow
+- When you need level-order traversal (e.g., social networks, web crawling)
 
 6. What are the limitations of DFS?
 - Does not guarantee the shortest path
