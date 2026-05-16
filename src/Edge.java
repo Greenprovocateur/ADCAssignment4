@@ -1,8 +1,22 @@
 public class Edge {
-    private final int from, to;
-    public Edge(int from, int to) { this.from = from; this.to = to; }
-    public int getFrom() { return from; }
-    public int getTo() { return to; }
+    private final int source;
+    private final int destination;
+
+    public Edge(int source, int destination) {
+        this.source = source;
+        this.destination = destination;
+    }
+
+    public int getSource() {
+        return source;
+    }
+
+    public int getDestination() {
+        return destination;
+    }
+
     @Override
-    public String toString() { return from + "->" + to; }
+    public String toString() {
+        return source + " -> " + destination;
+    }
 }
